@@ -1,0 +1,54 @@
+
+.circle-text {
+  font-family: sans-serif;
+  font-size: 10px;
+  fill: black;
+}
+
+.tooltip {
+  position: absolute;
+  width: 135px;
+  height: 60px;
+  padding: 2px;
+  padding-top: 8px;
+  font: 12px sans-serif;
+  color: white;
+  text-align: center;
+  background: #2E8B57;
+  border: 0;
+  border-radius: 10px;
+}
+
+.xaxis-text, .yaxis-text {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #2E8B57;
+  text-anchor: middle;
+}
+
+.xactive, .yactive{
+  font-weight: bold;
+  fill: #000;
+  fill: #2E8B57;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.xinactive, .yinactive {
+  font-weight: lighter;
+  fill: #2E8B57;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.xinactive:hover, .yinactive:hover {
+  fill: #8FBC8F;
+  cursor: pointer;
+}
+
+.svg-content-responsive {
+  width: 100vw;
+  height: 56.26vw;
+  max-height: 100vh;
+  max-width: 177.7778vh;
+  }
